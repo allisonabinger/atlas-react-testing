@@ -13,3 +13,31 @@ exports[`CoverArt renders an image 1`] = `
   </div>
 </div>
 `;
+
+exports[`CoverArt will not render without a URL 1`] = `
+<div>
+  <div
+    class="flex cover-art mb-6 w-full justify-center"
+  >
+    <img
+      alt="Current Album Cover"
+      class="rounded-md md:w-400 md:h-400"
+      src=""
+    />
+  </div>
+</div>
+`;
+
+exports[`CoverArt will not render without a valid URL 1`] = `
+<div>
+  <div
+    class="flex cover-art mb-6 w-full justify-center"
+  >
+    <img
+      alt="Current Album Cover"
+      class="rounded-md md:w-400 md:h-400"
+      src="525600"
+    />
+  </div>
+</div>
+`;
