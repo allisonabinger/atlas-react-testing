@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CoverArt renders an image 1`] = `
+<div>
+  <div
+    class="flex cover-art mb-6 w-full justify-center"
+  >
+    <img
+      alt="Current Album Cover"
+      class="rounded-md md:w-400 md:h-400"
+      src="/src/assets/SoulCanvas.jpeg"
+    />
+  </div>
+</div>
+`;
