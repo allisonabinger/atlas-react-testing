@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Volume Control Component > matches snapshot at a different volume 1`] = `
+<div>
+  <div
+    class="flex items-center justify-center"
+  >
+    <button
+      class="volume"
+    >
+      <img
+        alt="Volume Icon"
+        class="size-7"
+        src="/src/assets/volume.svg"
+      />
+    </button>
+    <input
+      class="w-full h-8 accent-vista-blue-700 outline-2 outline-transparent outline-offset-2"
+      id="volumeSlider"
+      max="100"
+      min="0"
+      type="range"
+      value="75"
+    />
+  </div>
+</div>
+`;
+
+exports[`Volume Control Component > matches snapshot when muted 1`] = `
+<div>
+  <div
+    class="flex items-center justify-center"
+  >
+    <button
+      class="volume"
+    >
+      <img
+        alt="Volume Icon"
+        class="size-7"
+        src="/src/assets/volume.svg"
+      />
+    </button>
+    <input
+      class="w-full h-8 accent-vista-blue-700 outline-2 outline-transparent outline-offset-2"
+      id="volumeSlider"
+      max="100"
+      min="0"
+      type="range"
+      value="75"
+    />
+  </div>
+</div>
+`;
+
+exports[`Volume Control Component > renders correctly and matches snapshot 1`] = `
+<div>
+  <div
+    class="flex items-center justify-center"
+  >
+    <button
+      class="volume"
+    >
+      <img
+        alt="Volume Icon"
+        class="size-7"
+        src="/src/assets/volume.svg"
+      />
+    </button>
+    <input
+      class="w-full h-8 accent-vista-blue-700 outline-2 outline-transparent outline-offset-2"
+      id="volumeSlider"
+      max="100"
+      min="0"
+      type="range"
+      value="75"
+    />
+  </div>
+</div>
+`;

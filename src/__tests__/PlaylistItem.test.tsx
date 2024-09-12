@@ -28,13 +28,13 @@ describe("PlayListItem Component", () => {
       isPlaying: false,
       currentSong: null,
       playSong: mockPlaySong,
-    //   playlist: [],
-    //   playNextSong: vi.fn(),
-    //   playPrevSong: vi.fn(),
-    //   togglePlay: vi.fn(),
-    //   loading: false,
-    //   shuffle: false,
-    //   setShuffle: vi.fn(),
+      //   playlist: [],
+      //   playNextSong: vi.fn(),
+      //   playPrevSong: vi.fn(),
+      //   togglePlay: vi.fn(),
+      //   loading: false,
+      //   shuffle: false,
+      //   setShuffle: vi.fn(),
     });
 
     render(<PlayListItem song={mockSong} />);
@@ -46,15 +46,14 @@ describe("PlayListItem Component", () => {
 
   test("does not display soundbarGIF when the current song is not playing", () => {
     useMusicPlayer.mockReturnValue({
-        isPlaying: false,
-        currentSong: mockSong,
-        playSong: mockPlaySong,
+      isPlaying: false,
+      currentSong: mockSong,
+      playSong: mockPlaySong,
     });
-    render(<PlayListItem song={mockSong} />)
+    render(<PlayListItem song={mockSong} />);
 
     const soundbar = screen.queryByRole("img");
-    expect(soundbar).toBeNull
-
+    expect(soundbar).toBeNull;
   });
 });
 

@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SongTitle Component > CoverArt will not render without a valid artist 1`] = `
+<div>
+  <div>
+    <h2
+      class="leading-8 text-2xl font-bold mb-2 text-vista-blue-900"
+    >
+      TestSong
+    </h2>
+    <p
+      class="mb-4 text-vista-blue-900"
+    />
+  </div>
+</div>
+`;
+
+exports[`SongTitle Component > CoverArt will not render without a valid title 1`] = `
+<div>
+  <div>
+    <h2
+      class="leading-8 text-2xl font-bold mb-2 text-vista-blue-900"
+    />
+    <p
+      class="mb-4 text-vista-blue-900"
+    >
+      TestArtist
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SongTitle Component > CoverArt will not render without a valid title and artist 1`] = `
+<div>
+  <div>
+    <h2
+      class="leading-8 text-2xl font-bold mb-2 text-vista-blue-900"
+    />
+    <p
+      class="mb-4 text-vista-blue-900"
+    />
+  </div>
+</div>
+`;
+
+exports[`SongTitle Component > SongTitle renders the title and artist 1`] = `
+<div>
+  <div>
+    <h2
+      class="leading-8 text-2xl font-bold mb-2 text-vista-blue-900"
+    >
+      TestSong
+    </h2>
+    <p
+      class="mb-4 text-vista-blue-900"
+    >
+      TestArtist
+    </p>
+  </div>
+</div>
+`;
