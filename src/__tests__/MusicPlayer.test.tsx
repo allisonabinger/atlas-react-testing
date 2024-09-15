@@ -111,7 +111,6 @@ describe("Music Player Component", () => {
     });
 
     render(<MusicPlayer />);
-    screen.debug();
 
     await waitFor(() => {
       expect(screen.getByText(/Currently Playing Component/i)).not.toBeNull;
