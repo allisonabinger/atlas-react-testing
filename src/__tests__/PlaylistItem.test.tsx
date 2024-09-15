@@ -1,5 +1,5 @@
 import { vi, describe, test, beforeEach, expect } from "vitest";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { useMusicPlayer } from "../MusicPlayerContext";
 import PlayListItem from "../components/PlayListItem";
 
